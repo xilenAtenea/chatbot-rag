@@ -102,7 +102,7 @@ if st.session_state["document_indexado"]:
                     )
                     response = st.write_stream(stream)
                 except Exception as e:
-                    response = f"❌ Error: {str(e)}"
+                    response = f"Error: {str(e)}"
                     st.error(response)
 
         with st.expander(">Parámetros del modelo"):

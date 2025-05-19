@@ -55,7 +55,8 @@ def model_response(retrieved_docs: str, query: str, top_p=0.8, temperature=0.1, 
 
     messages = [
         HumanMessage(
-            content=f"""Responde únicamente con base en el siguiente contexto.
+            content=f"""Eres un asistente conversacional que responde preguntas con base únicamente en la información contenida en un PDF cargado por el usuario.
+                Responde únicamente con base en el siguiente contexto.
                 Si no puedes responder con certeza, responde:
                 "No tengo suficiente información en el documento para responder con certeza."
 
