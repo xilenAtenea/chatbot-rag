@@ -100,9 +100,11 @@ Once running, you'll be able to:
 You can try questions like (taking into account the example pdf, where the book "el principito" in Spanish was used):
 
 * ¿Qué representaba realmente el sombrero?
+
 ![Example1](imgs/example1.png)
 
 * ¿Quien le dice al principito "lo esencial es invisible para los ojos."?
+
 ![Example2](imgs/example2.png)
 
 ---
