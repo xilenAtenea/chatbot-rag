@@ -25,11 +25,7 @@ cd chatbot-rag
 
 If you haven't installed [Ollama](https://ollama.com) yet, do it first.
 
-Then start the Ollama server (only needs to run in the background):
-
-```bash
-ollama serve
-```
+Then open Ollama — it will start running automatically in the background.
 
 ---
 
